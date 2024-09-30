@@ -9,21 +9,21 @@ const projects = [
     name: "Ecommerce App",
     technologies: "Django, React, Postgress",
     image: employeeMSImage,
-    github: "https://ecommerce-frontend-3awr.onrender.com",
+    link: "https://ecommerce-frontend-3awr.onrender.com",
   },
   {
     id: 2,
     name: "Netflix Clone",
     technologies: "MERN Stack",
     image: bookMSImage,
-    github: "https://movie-app-1-ocg6.onrender.com",
+    link: "https://movie-app-1-ocg6.onrender.com",
   },
   {
     id: 3,
     name: "Book MS",
     technologies: "MERN Stack",
     image: Data,
-    github: "https://github.com/YouafKhan1",
+    link: "https://github.com/YouafKhan1",
   },
 ];
 
@@ -34,7 +34,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <a href='https://github.com/Adebola-Christianah' key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg 
+            <a href={project.link} target="_blank" key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg 
             transform transition-transform duration-300 hover:scale-105">
               <img src={project.image} alt={project.name} className="rounded-lg mb-4 
               w-full h-48 object-cover" />

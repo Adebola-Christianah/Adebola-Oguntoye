@@ -43,13 +43,13 @@ const Footer = () => {
             {/* <a href="#" className="text-gray-400 hover:text-white">
               <FaFacebook />
             </a> */}
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white" target="_blank"> 
               <FaTwitter />
             </a>
-            <a href="https://www.linkedin.com/in/adebola-oguntoye/" className="text-gray-400 hover:text-white">
+            <a href="https://www.linkedin.com/in/adebola-oguntoye/" target="_blank" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/Adebola-Christianah" className="text-gray-400 hover:text-white">
+            <a href="https://github.com/Adebola-Christianah" className="text-gray-400 hover:text-white"target="_blank">
               <FaGithub />
             </a>
           </div>
