@@ -7,15 +7,23 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_szf3hse', 'template_zqv6wz2', e.target, 'BpNGZBrAesyS8EOwS')
-      .then((result) => {
-        alert('Message Sent Successfully')
-      }, (error) => {
-        console.log(error.text);
-        alert('Something went wrong!')
-      });
-    e.target.reset();
+  
+    emailjs.sendForm(
+      import.meta.env.VITE_SERVICE_ID,  // Update access to VITE_ variables
+      import.meta.env.VITE_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_USER_ID
+    )
+    .then((result) => {
+      alert('Message Sent Successfully');
+      e.target.reset();  // Reset form only after success
+    })
+    .catch((error) => {  // Use catch for error handling
+      console.log(error.text);
+      alert('Something went wrong!');
+    });
   };
+  
 
   return (
     <div className="bg-black text-white py-20" id="contact">

@@ -1,7 +1,7 @@
 import React from "react";
 import employeeMSImage from "../assets/ecommerce.png";
 import bookMSImage from "../assets/netflix.png";
-import Data from "../assets/data.jpeg";
+import Data from "../assets/job.png";
 // import {Link} from 'react-router-dom'
 const projects = [
   {
@@ -23,7 +23,7 @@ const projects = [
     name: "Book MS",
     technologies: "MERN Stack",
     image: Data,
-    link: "https://github.com/YouafKhan1",
+    link: "https://job-portal-1-imc8.onrender.com",
   },
 ];
 
@@ -37,7 +37,7 @@ const Projects = () => {
             <a href={project.link} target="_blank" key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg 
             transform transition-transform duration-300 hover:scale-105">
               <img src={project.image} alt={project.name} className="rounded-lg mb-4 
-              w-full h-48 object-cover" />
+              w-full h-48 object-contain" />
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
               <p className="text-gray-400 mb-4">{project.technologies}</p>
               <a href='https://github.com/Adebola-Christianah' className="inline-block bg-gradient-to-r 
