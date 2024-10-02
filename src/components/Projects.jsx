@@ -20,7 +20,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "Book MS",
+    name: "Job Portal",
     technologies: "MERN Stack",
     image: Data,
     link: "https://job-portal-1-imc8.onrender.com",
