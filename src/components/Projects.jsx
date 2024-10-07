@@ -16,7 +16,7 @@ const projects = [
     name: "Netflix Clone",
     technologies: "MERN Stack",
     image: bookMSImage,
-    link: "https://movie-app-1-ocg6.onrender.com",
+    link: "https://movie-app-frontend-eight.vercel.app/",
   },
   {
     id: 3,
