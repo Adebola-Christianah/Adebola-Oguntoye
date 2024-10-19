@@ -4,7 +4,7 @@ import ResumePDF from '../assets/Adebola Oguntoye.pdf'; // Update this path to y
 
 const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16'>
+    <div className='bg-black text-white text-center py-16' id="hero">
       <img 
         src={HeroImage} 
         alt="" 
