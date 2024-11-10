@@ -23,7 +23,7 @@ const About = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-3/12 md:w-2/12">
                   Python
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -34,7 +34,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12">
+                <label htmlFor="htmlandcss" className="w-3/12 md:w-2/12">
                   HTML & CSS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -45,7 +45,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="reactjs" className="w-2/12">
+                <label htmlFor="reactjs" className="w-3/12 md:w-2/12">
                   React JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -56,7 +56,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="nodejs" className="w-2/12">
+                <label htmlFor="nodejs" className="w-3/12 md:w-2/12">
                   Node JS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -67,7 +67,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="nodejs" className="w-2/12">
+                <label htmlFor="nodejs" className="w-3/12 md:w-2/12">
                   Typescript
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -78,7 +78,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="nodejs" className="w-2/12">
+                <label htmlFor="nodejs" className="w-3/12 md:w-2/12">
                   Angular 
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -89,7 +89,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="nodejs" className="w-2/12">
+                <label htmlFor="nodejs" className="w-3/12 md:w-2/12">
                   SQL
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -100,7 +100,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="nodejs" className="w-2/12">
+                <label htmlFor="nodejs" className="w-3/12 md:w-2/12">
                   Robocorp
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -111,7 +111,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="nodejs" className="w-2/12">
+                <label htmlFor="nodejs" className="w-3/12 md:w-2/12">
                   Blueprism
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">

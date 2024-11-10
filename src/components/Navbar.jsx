@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { TiHomeOutline } from "react-icons/ti";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -27,15 +28,16 @@ const Navbar = () => {
 
         {/* Desktop Navigation Links */}
         <div className='hidden md:flex space-x-6'>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'about')}>About Me</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'service')}>Services</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'project')}>Projects</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'about')}>About Me</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'service')}>Services</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'project')}>Projects</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
         </div>
 
         {/* Mobile Navigation - Hamburger Menu */}
         <div className='md:hidden flex items-center'>
+          
           <button onClick={toggleMenu} className="text-white focus:outline-none">
             {menuOpen ? <FaTimes className='w-6 h-6' /> : <FaBars className='w-6 h-6' />}
           </button>
@@ -51,11 +53,11 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className='md:hidden flex flex-col items-center space-y-4 mt-4 h-screen'>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'about')}>About Me</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'service')}>Services</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'project')}>Projects</a>
-          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'about')}>About Me</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'service')}>Services</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'project')}>Projects</a>
+          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
         </div>
       )}
     </nav>
