@@ -16,6 +16,7 @@ const Contact = () => {
     )
     .then((result) => {
       alert('Message Sent Successfully');
+      console.log(result)
       e.target.reset();  // Reset form only after success
     })
     .catch((error) => {  // Use catch for error handling

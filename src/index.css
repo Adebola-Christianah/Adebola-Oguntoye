@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "rsuite/dist/rsuite.css";
+
 html {
     scroll-behavior: smooth;
   }
-  
+  .rs-input-group input{
+  background-color: aqua!important;
+}
