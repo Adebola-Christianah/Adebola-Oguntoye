@@ -1,6 +1,8 @@
-import React from "react";
+
 import employeeMSImage from "../assets/ecommerce.png";
 import bookMSImage from "../assets/netflix.png";
+import PersonalFinance from "../assets/personal-finance.jpeg";
+import Expo from "../assets/expo.dev-Expo.jpeg";
 import Data from "../assets/job.png";
 // import {Link} from 'react-router-dom'
 const projects = [
@@ -16,8 +18,9 @@ const projects = [
     name: "Netflix Clone",
     technologies: "MERN Stack",
     image: bookMSImage,
-    link: "https://movie-app-frontend-eight.vercel.app/",
+    link: "https://movie-app-v2-yos3.onrender.com/",
   },
+ 
   {
     id: 3,
     name: "Job Portal",
@@ -25,6 +28,20 @@ const projects = [
     image: Data,
     link: "https://job-portal-1-imc8.onrender.com",
   },
+  {
+    id: 4,
+    name: "Personal Finance App",
+    technologies: "MERN Stack",
+    image: PersonalFinance,
+    link: "https://personal-finance-frontend-mo2y.onrender.com",
+  },
+  {
+    id: 5,
+    name: "Memz",
+    technologies: "React Native, Expo, appwrite",
+    image: Expo,
+    link: "https://expo.dev/preview/update?message=first%20commit&updateRuntimeVersion=1.0.0&createdAt=2024-12-22T02%3A45%3A05.798Z&slug=exp&projectId=2f176bcc-18a0-4e61-b39e-1bf4104c38bc&group=2fe11a85-2a39-4cb7-8d90-3aeb40f6fc61",
+  }
 ];
 
 const Projects = () => {

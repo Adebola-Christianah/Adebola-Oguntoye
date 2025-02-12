@@ -1,6 +1,6 @@
-import React from 'react';
+
 import HeroImage from '../assets/my image.png';
-import ResumePDF from '../assets/Oguntoye Adebola.pdf'; // Update this path to your actual PDF file location
+import ResumePDF from '../assets/AdebolaOguntoye (2).pdf'; 
 
 const Hero = () => {
   return (
