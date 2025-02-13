@@ -28,11 +28,11 @@ const Navbar = () => {
 
         {/* Desktop Navigation Links */}
         <div className='hidden md:flex space-x-6'>
-          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
-          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'about')}>About Me</a>
-          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'service')}>Services</a>
-          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'project')}>Projects</a>
-          <a className='hover:text-gray-400' onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
+          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'hero')}>Home</a>
+          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'about')}>About Me</a>
+          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'service')}>Services</a>
+          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'project')}>Projects</a>
+          <a className='hover:text-gray-400 cursor-pointer' onClick={(e) => handleSmoothScroll(e, 'contact')}>Contact</a>
         </div>
 
         {/* Mobile Navigation - Hamburger Menu */}

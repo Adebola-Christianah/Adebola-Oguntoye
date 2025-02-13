@@ -51,7 +51,7 @@ const Modal = ({ service, onClose }) => {
   if (!service) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-red-300 bg-opacity-50">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-300 bg-opacity-50">
       <div className="bg-gray-800 text-white rounded-lg max-w-lg w-full p-6 relative">
         <button
           onClick={onClose}
